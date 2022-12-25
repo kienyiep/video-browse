@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <!-- @ is no different to v-on: -->
+    <p class="input">Start input to browse for any youtube video</p>
     <SearchBar @termChange="onTermChange"></SearchBar>
 
     <div class="row">
@@ -64,3 +65,11 @@ export default {
   },
 };
 </script>
+
+<style>
+.input {
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
