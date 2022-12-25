@@ -1,7 +1,10 @@
 <template>
   <div>
     <!-- <input v-on:input="onInput" /> -->
-    <input @input="onInput" />
+    <input
+      placeholder="Input to browse for any youtube video"
+      @input="onInput"
+    />
   </div>
 </template>
 <script>
